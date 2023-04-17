@@ -1,12 +1,12 @@
 <!-- 100% RECYCLED features  & BIODEGRADABLE features  -->
-   <section class="features ">
+   <section class="features _wrapper">
       {%  if section.settings.img_right == false %}
-      <div class="features__content _container">
+      <div class="features__content">
          <div class="features__container features__container_one">
             <img src="{{ section.settings.image | img_url : "master" }}" alt="100% RECYCLED features" class="features__img features__img_one">
             <div class="features__description features__description_one">
                <h2 class="features__header">{{ section.settings.heading }}</h2>
-               <p class="features__text">{{  section.settings.description }}</p>
+               <p class="features__text">{{  section.settings.deascription }}</p>
             </div>
          </div>
          <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -16,11 +16,11 @@
       </div>
         {%  else %}
 
-      <div class="features__content features__content_yellow ">
-         <div class="features__container features__container_two _container">
+      <div class="features__content features__content_yellow">
+         <div class="features__container features__container_two">
             <div class="features__description features__description_two">
                <h2 class="features__header">{{ section.settings.heading }}</h2>
-               <p class="features__text">{{  section.settings.description }}
+               <p class="features__text">{{  section.settings.deascription }}
                </p>
             </div>
             <img src="{{ section.settings.image |img_url : "master" }}"  class="features__img features__img_two">
