@@ -1,41 +1,41 @@
-// Modal function
-const modal = document.querySelector('.modal');
-const closeBtn = document.querySelector('.modal__close');
-const header = document.querySelector('header');
-const main = document.querySelector('main');
-const section = document.querySelectorAll('section');
-const footer = document.querySelector('footer');
-const body = document.querySelector('body');
+// // Modal function
+// const modal = document.querySelector('.modal');
+// const closeBtn = document.querySelector('.modal__close');
+// const header = document.querySelector('header');
+// const main = document.querySelector('main');
+// const section = document.querySelectorAll('section');
+// const footer = document.querySelector('footer');
+// const body = document.querySelector('body');
 
-function modalOpen() {
-   header.classList.add('non-active');
-   main.classList.add('non-active');
-   section.forEach(sectionNonActive);
-   function sectionNonActive(item) {
-      item.classList.add('non-active');
-   };
-   footer.classList.add('non-active');
-   body.classList.add('non-active');
-};
+// function modalOpen() {
+//    header.classList.add('non-active');
+//    main.classList.add('non-active');
+//    section.forEach(sectionNonActive);
+//    function sectionNonActive(item) {
+//       item.classList.add('non-active');
+//    };
+//    footer.classList.add('non-active');
+//    body.classList.add('non-active');
+// };
 
-modalOpen();
+// modalOpen();
 
-const modalClose = function () {
-   modal.classList.add('non-active');
-   header.classList.remove('non-active');
-   main.classList.remove('non-active');
-   section.forEach(sectionNonActive);
-   function sectionNonActive(item) {
-      item.classList.remove('non-active');
-   };
-   footer.classList.remove('non-active');
-   body.classList.remove('non-active');
-};
+// const modalClose = function () {
+//    modal.classList.add('non-active');
+//    header.classList.remove('non-active');
+//    main.classList.remove('non-active');
+//    section.forEach(sectionNonActive);
+//    function sectionNonActive(item) {
+//       item.classList.remove('non-active');
+//    };
+//    footer.classList.remove('non-active');
+//    body.classList.remove('non-active');
+// };
 
-closeBtn.addEventListener('click', () => {
-   // modal.classList.add('non-active');
-   modalClose ();
-});
+// closeBtn.addEventListener('click', () => {
+//    // modal.classList.add('non-active');
+//    modalClose ();
+// });
 
 document.addEventListener('click', (e) => {
    const target = e.target;
