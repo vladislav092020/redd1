@@ -63,6 +63,19 @@
     },
     "a207cff5-0550-4af0-92ed-e1c13b1607fd": {
       "type": "main-reviews",
+      "blocks": {
+        "cdea6568-33c4-4253-af63-b42ce553982d": {
+          "type": "Text",
+          "settings": {
+            "text": "Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id                         nisl quis enim dignissim sagittis.",
+            "first_name": "Daria",
+            "last_name": "TALLIN"
+          }
+        }
+      },
+      "block_order": [
+        "cdea6568-33c4-4253-af63-b42ce553982d"
+      ],
       "settings": {
         "heading": "CONTACTS",
         "description": "Custom Section Description",
