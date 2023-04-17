@@ -5,7 +5,7 @@
          <!-- footer top -->
          <div class="footer__top">
             <div class="footer__logo-block">
-               <img src="./redaily_files/logo.svg" alt="redaily" class="footer__logo">
+               <img src="{{ section.settings.logo }}" alt="redaily" class="footer__logo">
             </div>
 
             <div class="footer__nav">
@@ -33,19 +33,19 @@
               {%- if settings.social_twitter_link != blank -%}
                <a href="/" class="footer__link">
                  {% render "icon-twitter" %}
-                  <img src="./redaily_files/twitter.svg" alt="twitter" class="footer__img">
+                  
                </a>
                 {%- endif -%}
              {%- if settings.social_facebook_link != blank -%}
                <a href="/" class="footer__link">
                  {% render "icon-facebook" %}
-                  <img src="./redaily_files/facebook.svg" alt="facebook" class="footer__img">
+                  
                </a>
                 {%- endif -%}
                {%- if settings.social_instagram_link != blank -%}
                <a href="/" class="footer__link">
                  {% render "icon-instagram" %}
-                  <img src="./redaily_files/instagram.svg" alt="instagram" class="footer__img">
+                  
                </a>
                  {%  endif %}
             </div>
