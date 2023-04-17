@@ -28,6 +28,12 @@
         "text": "SUBMIT"
       }
     },
+    "aae30271-4b35-49b7-9cd4-df26f63774bd": {
+      "type": "main-img-plus-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/biodegradable_image_1.png"
+      }
+    },
     "337798d7-2388-444d-aa14-3fa8580b0ee1": {
       "type": "main-why",
       "blocks": {
@@ -114,6 +120,7 @@
     "6128f76d-367b-4eb4-8e19-e183ff81cf9c",
     "e3f8f56f-c1ab-4151-9d88-e03f468cc814",
     "208a2482-e381-4fa8-a7db-5b0e1b111945",
+    "aae30271-4b35-49b7-9cd4-df26f63774bd",
     "337798d7-2388-444d-aa14-3fa8580b0ee1",
     "a207cff5-0550-4af0-92ed-e1c13b1607fd",
     "e21fbb2f-b806-4cbb-be85-46ea0dc94692",
