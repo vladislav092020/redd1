@@ -13,10 +13,11 @@
 
          <!-- Items -->
          <div class="products__items">
-            <a href="" class="product__link">
+         {% for product in section.settings.product_list %}
+            <a href="{{ product.url }}" class="product__link">
                <div class="products__item">
-                  <img src="./redaily_files/product.png" alt="product" class="products__img">
-                  <h3 class="products__name">DWEBERRY</h3>
+                  <img src="{{ product.featured_image | img_url : "master" }}" alt="product" class="products__img">
+                  <h3 class="products__name">{{ product.title }}</h3>
                   <p class="products__text">BODY WASH</p>
                   <div class="products__price-block">
                      <span class="products__price products__price_old">€10</span>
@@ -24,30 +25,9 @@
                   </div>
                </div>
             </a>
+        {% endfor %}
 
-            <a href="" class="product__link">
-               <div class="products__item">
-                  <img src="./redaily_files/product.png" alt="product" class="products__img">
-                  <h3 class="products__name">DWEBERRY</h3>
-                  <p class="products__text">BODY WASH</p>
-                  <div class="products__price-block">
-                     <span class="products__price products__price_old">€10</span>
-                     <span class="products__price products__price_new">€5</span>
-                  </div>
-               </div>
-            </a>
-
-            <a href="" class="product__link">
-               <div class="products__item">
-                  <img src="./redaily_files/product.png" alt="product" class="products__img">
-                  <h3 class="products__name">DWEBERRY</h3>
-                  <p class="products__text">BODY WASH</p>
-                  <div class="products__price-block">
-                     <span class="products__price products__price_old">€10</span>
-                     <span class="products__price products__price_new">€5</span>
-                  </div>
-               </div>
-            </a>
+          
 
             <!-- 4 item -->
             <div class="products__item products__item_mobile">
@@ -64,7 +44,7 @@
       </div>
    </section>
 
-          {% schema %}
+{% schema %}
 {
   "name": "PRODUCTS",
   "settings": [
