@@ -40,7 +40,7 @@
       "type": "main-img-plus-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/biodegradable_image_3.png",
-        "heading": "",
+        "heading": "<b>BIODEGRADABLE<\/b> features",
         "desccription": ""
       }
     },
