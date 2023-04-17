@@ -70,19 +70,19 @@
          <p class="burger__social-text">We are also on social networks</p>
          <div class="burger__img-block">
            {%- if settings.social_twitter_link != blank -%}
-            <a href="" class="burger__link">
+            <a href="{{ settings.social_twitter_link }}" class="burger__link">
               {% render "icon-twitter" %}
               
             </a>
              {%- endif -%}
              {%- if settings.social_facebook_link != blank -%}
-            <a href="" class="burger__link">
+            <a href="{{ settings.social_facebook_link }}" class="burger__link">
               {% render "icon-facebook" %}
                
             </a>
                {%- endif -%}
                {%- if settings.social_instagram_link != blank -%}
-            <a href="" class="burger__link">
+            <a href="{{ settings.social_instagram_link }}" class="burger__link">
               {% render "icon-instagram" %}
                
             </a>
