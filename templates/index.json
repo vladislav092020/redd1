@@ -31,6 +31,7 @@
     "aae30271-4b35-49b7-9cd4-df26f63774bd": {
       "type": "main-img-plus-text",
       "settings": {
+        "img_right": false,
         "image": "shopify:\/\/shop_images\/biodegradable_image_1.png",
         "heading": "<b>100% RECYCLED <\/b>features",
         "desccription": "We have analyzed over 50 different suppliers to ensure that our bottle is                   equally                   beneficial to your home as well as our planet."
@@ -39,6 +40,7 @@
     "387d8ce6-cd5d-4313-902f-2e3bb32564fa": {
       "type": "main-img-plus-text",
       "settings": {
+        "img_right": true,
         "image": "shopify:\/\/shop_images\/biodegradable_image_3.png",
         "heading": "<b>BIODEGRADABLE<\/b> features",
         "desccription": "Each subsequent use of ReDaily products will leave no trace on the environment."
