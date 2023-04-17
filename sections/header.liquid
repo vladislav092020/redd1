@@ -58,12 +58,10 @@
  <!-- Mobile burger -->
    <div class="burger">
       <ul class="burger__list">
-         <li class="burger__item"><a href="/" class="burger__link">Our products</a></li>
-         <li class="burger__item"><a href="/" class="burger__link">Our mission</a></li>
-         <li class="burger__item"><a href="/" class="burger__link">How it works</a></li>
-         <li class="burger__item"><a href="/" class="burger__link">About Us</a></li>
-         <li class="burger__item"><a href="/" class="burger__link">FAQ</a></li>
-         <li class="burger__item"><a href="/" class="burger__link">Contacts</a></li>
+        {%  for link in section.settings.linklinst.links %}
+         <li class="burger__item"><a href="/" class="burger__link">{{  link.title }}</a></li>
+          {%  endfor %}
+         
       </ul>
       <div class="burger__language-block">
          <a href="/" class="burger__language">English</a>
