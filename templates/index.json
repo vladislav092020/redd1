@@ -27,9 +27,72 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "e3f8f56f-c1ab-4151-9d88-e03f468cc814": {
+      "type": "main-products",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "208a2482-e381-4fa8-a7db-5b0e1b111945": {
+      "type": "main-how-it-works",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "337798d7-2388-444d-aa14-3fa8580b0ee1": {
+      "type": "main-why",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "a207cff5-0550-4af0-92ed-e1c13b1607fd": {
+      "type": "main-reviews",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "e21fbb2f-b806-4cbb-be85-46ea0dc94692": {
+      "type": "main-instagram",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "695fa674-7f0d-4346-9caa-ae7f27614056": {
+      "type": "main-contact",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
+    "95bfa144-1fad-4a1c-ac0a-089754780703": {
+      "type": "subscribe",
+      "settings": {
+        "heading": "SUBSCRIBE",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
     }
   },
   "order": [
-    "featured_collection"
+    "featured_collection",
+    "e3f8f56f-c1ab-4151-9d88-e03f468cc814",
+    "208a2482-e381-4fa8-a7db-5b0e1b111945",
+    "337798d7-2388-444d-aa14-3fa8580b0ee1",
+    "a207cff5-0550-4af0-92ed-e1c13b1607fd",
+    "e21fbb2f-b806-4cbb-be85-46ea0dc94692",
+    "695fa674-7f0d-4346-9caa-ae7f27614056",
+    "95bfa144-1fad-4a1c-ac0a-089754780703"
   ]
 }
