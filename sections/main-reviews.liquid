@@ -5,80 +5,20 @@
       <div class="reviews__container _container">
          <h2 class="reviews__header">Product <b>reviews</b></h2>
 
-         <div class="swiper reviews__slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-            <div class="swiper-wrapper" id="swiper-wrapper-5b1be164ae155498" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
-
-               <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 381px; margin-right: 66px;">
+         <div class="swiper reviews__slider">
+            <div class="swiper-wrapper" >
+            {% for block in section.blocks %}
+               <div class="swiper-slide">
                   <div class="reviews__item">
                      <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
+                     <p class="reviews__text">{{ block.settings.text }}</p>
                      <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
+                        <p class="reviews__firstname">{{ block.settings.first_name }}</p>
+                        <p class="reviews__secondname">{{ block.settings.last_name }}</p>
                      </div>
                   </div>
                </div>
-
-               <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6" style="width: 381px; margin-right: 66px;">
-                  <div class="reviews__item">
-                     <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
-                     <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="swiper-slide" role="group" aria-label="3 / 6" style="width: 381px; margin-right: 66px;">
-                  <div class="reviews__item">
-                     <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
-                     <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="swiper-slide" role="group" aria-label="4 / 6" style="width: 381px; margin-right: 66px;">
-                  <div class="reviews__item">
-                     <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
-                     <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 381px; margin-right: 66px;">
-                  <div class="reviews__item">
-                     <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
-                     <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="swiper-slide" role="group" aria-label="6 / 6" style="width: 381px; margin-right: 66px;">
-                  <div class="reviews__item">
-                     <img src="./redaily_files/quotes.svg" alt="quotes" class="reviews__img">
-                     <p class="reviews__text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id
-                        nisl quis enim dignissim sagittis.</p>
-                     <div class="reviews__author-block">
-                        <p class="reviews__firstname">Daria</p>
-                        <p class="reviews__secondname">TALLIN</p>
-                     </div>
-                  </div>
-               </div>
+              {% endfor %}
             </div>
 
          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
@@ -120,6 +60,25 @@
     }
   
   ],
+  "blocks" : [{
+    "type" :"Text",
+    "name" : "Review",
+    "settings"  : [{
+        "type" : "text",
+        "id" : "text",
+        "label" : "Text"
+    },
+    {
+        "type" : "text",
+        "id" : "first_name",
+        "label" : "First Name"
+    },
+    {
+        "type" : "text",
+        "id" : "last_name",
+        "label" : "Last Name"
+    }]
+  }],
   "presets": [
     {
       "name": "REVIEWS"
