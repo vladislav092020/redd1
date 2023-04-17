@@ -1,12 +1,31 @@
 {
   "sections": {
-    "6128f76d-367b-4eb4-8e19-e183ff81cf9c": {
-      "type": "main-hero",
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group.png",
-        "link": "",
-        "heading": "simple <b>habits<\/b> matter",
-        "description": "We made eco friendliness easy and accessible.<br> With love and care, ReDaily."
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
       }
     },
     "e3f8f56f-c1ab-4151-9d88-e03f468cc814": {
@@ -67,7 +86,7 @@
     }
   },
   "order": [
-    "6128f76d-367b-4eb4-8e19-e183ff81cf9c",
+    "featured_collection",
     "e3f8f56f-c1ab-4151-9d88-e03f468cc814",
     "208a2482-e381-4fa8-a7db-5b0e1b111945",
     "337798d7-2388-444d-aa14-3fa8580b0ee1",
