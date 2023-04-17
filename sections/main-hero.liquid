@@ -1,0 +1,45 @@
+<!-- Main -->
+<main class="main _ibg">
+   <div class="main__container _container">
+      <h1 class="main__header">{{ section.settings.heding }}</h1>
+      <p class="main__description">{{ section.settings.description }}</p>
+      <a href="{{ section.settings.link }}" class="main__link">Try it</a>
+   </div>
+   <img src="{{ section.settings.image | img_url : "master" }}" alt="" class="main__img">
+</main>
+
+{% schema %}
+{
+  "name" : "MAIN-HERO",
+  "settings" : [
+    {
+        "type" : "image_picker",
+        "label" : "image",
+        "id" : "image"
+    },
+    {
+        "type" : "url",
+        "id" : "link",
+        "label" : "Link"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "simple&nbsp;<b>habits</b> matter"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "We made eco friendliness easy and accessible.<br> With love and care, ReDaily."
+    }
+  ],
+  "presets": [
+    {
+      "name": "MAIN-HERO"
+     
+    }
+  ]
+}
+{% endschema %}
