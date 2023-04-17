@@ -1,0 +1,99 @@
+ <!-- Our products -->
+   <section class="products _wrapper">
+      <div class="products__container _container">
+
+         <!-- Desctiption -->
+         <div class="products__description">
+            <h2 class="products__header">our <b>products</b></h2>
+            <p class="products__text-top">Personal Cares</p>
+            <p class="products__text-bottom">Choose a product that will make your day brighter. Are you looking for
+               Personal or Home care?</p>
+            <a href="" class="products__link products__link_desktop">all products</a>
+         </div>
+
+         <!-- Items -->
+         <div class="products__items">
+            <a href="" class="product__link">
+               <div class="products__item">
+                  <img src="./redaily_files/product.png" alt="product" class="products__img">
+                  <h3 class="products__name">DWEBERRY</h3>
+                  <p class="products__text">BODY WASH</p>
+                  <div class="products__price-block">
+                     <span class="products__price products__price_old">€10</span>
+                     <span class="products__price products__price_new">€5</span>
+                  </div>
+               </div>
+            </a>
+
+            <a href="" class="product__link">
+               <div class="products__item">
+                  <img src="./redaily_files/product.png" alt="product" class="products__img">
+                  <h3 class="products__name">DWEBERRY</h3>
+                  <p class="products__text">BODY WASH</p>
+                  <div class="products__price-block">
+                     <span class="products__price products__price_old">€10</span>
+                     <span class="products__price products__price_new">€5</span>
+                  </div>
+               </div>
+            </a>
+
+            <a href="" class="product__link">
+               <div class="products__item">
+                  <img src="./redaily_files/product.png" alt="product" class="products__img">
+                  <h3 class="products__name">DWEBERRY</h3>
+                  <p class="products__text">BODY WASH</p>
+                  <div class="products__price-block">
+                     <span class="products__price products__price_old">€10</span>
+                     <span class="products__price products__price_new">€5</span>
+                  </div>
+               </div>
+            </a>
+
+            <!-- 4 item -->
+            <div class="products__item products__item_mobile">
+               <img src="./redaily_files/product.png" alt="product" class="products__img">
+               <h3 class="products__name">DWEBERRY</h3>
+               <p class="products__text">BODY WASH</p>
+               <div class="products__price-block">
+                  <span class="products__price products__price_old">€10</span>
+                  <span class="products__price products__price_new">€5</span>
+               </div>
+            </div>
+         </div>
+         <a href="" class="products__link products__link_mobile">all products</a>
+      </div>
+   </section>
+
+          {% schema %}
+{
+  "name": "PRODUCTS",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "CONTACTS"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Custom Section Description"
+    },
+   
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Button Text",
+      "default": "SUBMIT"
+    }
+  
+  ],
+  "presets": [
+    {
+      "name": "PRODUCTS"
+     
+    }
+  ]
+}
+{% endschema %}
