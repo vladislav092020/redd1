@@ -61,14 +61,14 @@ toggle.addEventListener('click', function (e) {
 });
 
 
-// wave animation
-var myWave = wavify( document.querySelector('#wave'), {
-   height: 10,
-   bones: 2,
-   amplitude: 100,
-   color: '#FBF8E7',
-   speed: .6
- })
+// // wave animation
+// var myWave = wavify( document.querySelector('#wave'), {
+//    height: 10,
+//    bones: 2,
+//    amplitude: 100,
+//    color: '#FBF8E7',
+//    speed: .6
+//  })
 
 
 //  reviews slider
@@ -117,24 +117,24 @@ var reviewsSlider = new Swiper(".reviews__slider", {
    }
  });
 
-// form submit plug
-const formBtn = document.querySelector('.form__button');
+// // form submit plug
+// const formBtn = document.querySelector('.form__button');
 
-formBtn.addEventListener('click', (evt) => {
-   event.preventDefault();
-   alert('Ready');
-});
+// formBtn.addEventListener('click', (evt) => {
+//    event.preventDefault();
+//    alert('Ready');
+// });
 
-const SubBtn = document.querySelector('.subscribe__button');
+// const SubBtn = document.querySelector('.subscribe__button');
 
-SubBtn.addEventListener('click', (evt) => {
-   event.preventDefault();
-   alert('Ready');
-});
+// SubBtn.addEventListener('click', (evt) => {
+//    event.preventDefault();
+//    alert('Ready');
+// });
 
-const MdlBtn = document.querySelector('.modal__button');
+// const MdlBtn = document.querySelector('.modal__button');
 
-MdlBtn.addEventListener('click', (evt) => {
-   event.preventDefault();
-   alert('Ready');
-});
+// MdlBtn.addEventListener('click', (evt) => {
+//    event.preventDefault();
+//    alert('Ready');
+// });
