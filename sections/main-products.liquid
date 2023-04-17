@@ -4,10 +4,9 @@
 
          <!-- Desctiption -->
          <div class="products__description">
-            <h2 class="products__header">our <b>products</b></h2>
+            <h2 class="products__header">{{ section.settings.heading}} </h2>
             <p class="products__text-top">Personal Cares</p>
-            <p class="products__text-bottom">Choose a product that will make your day brighter. Are you looking for
-               Personal or Home care?</p>
+            <p class="products__text-bottom">{{ section.settings.description }}</p>
             <a href="" class="products__link products__link_desktop">all products</a>
          </div>
 
@@ -49,23 +48,27 @@
   "name": "PRODUCTS",
   "settings": [
     {
+    "type": "product_list",
+    "id": "product_list",
+    "label": "Products"
+    },
+    {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "CONTACTS"
+      "default": "our <b>products</b>"
     },
     {
       "type": "text",
       "id": "description",
       "label": "Description",
-      "default": "Custom Section Description"
+      "default": "Choose a product that will make your day brighter. Are you looking for Personal or Home care?"
     },
-   
     {
       "type": "text",
       "id": "text",
       "label": "Button Text",
-      "default": "SUBMIT"
+      "default": "all products"
     }
   
   ],
