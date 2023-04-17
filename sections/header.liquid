@@ -35,7 +35,7 @@
          <!-- Navigation -->
          <div class="nav__burger">
             <ul class="nav__list">
-              {%  for link in section.settings.linklinst.links %}
+              {%  for link in section.settings.menu.links %}
                <li class="nav__item"><a href="{{ link.url}}" class="nav__link">{{ link.title }}</a></li>
                {%  endfor %}
               
@@ -58,7 +58,7 @@
  <!-- Mobile burger -->
    <div class="burger">
       <ul class="burger__list">
-        {%  for link in section.settings.linklinst.links %}
+        {%  for link in section.settings.menu.links %}
          <li class="burger__item"><a href="{{ link.url }}" class="burger__link">{{  link.title }}</a></li>
           {%  endfor %}
          
