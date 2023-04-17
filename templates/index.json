@@ -31,7 +31,9 @@
     "aae30271-4b35-49b7-9cd4-df26f63774bd": {
       "type": "main-img-plus-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/biodegradable_image_1.png"
+        "image": "shopify:\/\/shop_images\/biodegradable_image_1.png",
+        "heading": "<b>100% RECYCLED <\/b>features",
+        "desccription": "We have analyzed over 50 different suppliers to ensure that our bottle is                   equally                   beneficial to your home as well as our planet."
       }
     },
     "337798d7-2388-444d-aa14-3fa8580b0ee1": {
