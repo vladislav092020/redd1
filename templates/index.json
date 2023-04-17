@@ -93,11 +93,20 @@
             "first_name": "Daria",
             "last_name": "RiGA"
           }
+        },
+        "95efe547-109b-4e4b-a8f8-fa5578c41b93": {
+          "type": "Text",
+          "settings": {
+            "text": "test",
+            "first_name": "test",
+            "last_name": "Test"
+          }
         }
       },
       "block_order": [
         "cdea6568-33c4-4253-af63-b42ce553982d",
-        "58eff2a5-65f4-4739-8f5d-cf643cc6758e"
+        "58eff2a5-65f4-4739-8f5d-cf643cc6758e",
+        "95efe547-109b-4e4b-a8f8-fa5578c41b93"
       ],
       "settings": {
         "heading": "CONTACTS",
