@@ -59,7 +59,7 @@
    <div class="burger">
       <ul class="burger__list">
         {%  for link in section.settings.linklinst.links %}
-         <li class="burger__item"><a href="/" class="burger__link">{{  link.title }}</a></li>
+         <li class="burger__item"><a href="{{ link.url }}" class="burger__link">{{  link.title }}</a></li>
           {%  endfor %}
          
       </ul>
