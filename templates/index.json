@@ -36,6 +36,14 @@
         "desccription": "We have analyzed over 50 different suppliers to ensure that our bottle is                   equally                   beneficial to your home as well as our planet."
       }
     },
+    "387d8ce6-cd5d-4313-902f-2e3bb32564fa": {
+      "type": "main-img-plus-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/biodegradable_image_3.png",
+        "heading": "",
+        "desccription": ""
+      }
+    },
     "337798d7-2388-444d-aa14-3fa8580b0ee1": {
       "type": "main-why",
       "blocks": {
@@ -144,6 +152,7 @@
     "e3f8f56f-c1ab-4151-9d88-e03f468cc814",
     "208a2482-e381-4fa8-a7db-5b0e1b111945",
     "aae30271-4b35-49b7-9cd4-df26f63774bd",
+    "387d8ce6-cd5d-4313-902f-2e3bb32564fa",
     "337798d7-2388-444d-aa14-3fa8580b0ee1",
     "a207cff5-0550-4af0-92ed-e1c13b1607fd",
     "e21fbb2f-b806-4cbb-be85-46ea0dc94692",
