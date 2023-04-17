@@ -12,8 +12,11 @@
     "e3f8f56f-c1ab-4151-9d88-e03f468cc814": {
       "type": "main-products",
       "settings": {
-        "heading": "CONTACTS",
-        "description": "Custom Section Description",
+        "product_list": [
+
+        ],
+        "heading": "",
+        "description": "",
         "text": "SUBMIT"
       }
     },
