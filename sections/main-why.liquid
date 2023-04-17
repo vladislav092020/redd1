@@ -14,7 +14,7 @@
             <div class="why-us__content">
             {% for block in section.blocks %}
                <div class="why-us__item item">
-                  <img src="{{ block.settings.image }}" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_one">
+                  <img src="{{ block.settings.image |img_url : "master" }}" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_one">
                   <h3 class="item__header item__header_one">{{ block.settings.title }}</h3>
                   <img src="./redaily_files/border.png" alt="" class="item__border">
                   <p class="item__text">{{ block.settings.text }}</p>
