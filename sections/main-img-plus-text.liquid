@@ -1,7 +1,7 @@
 <!-- 100% RECYCLED features  & BIODEGRADABLE features  -->
    <section class="features ">
       {%  if section.settings.img_right == false %}
-      <div class="features__content">
+      <div class="features__content _container">
          <div class="features__container features__container_one">
             <img src="{{ section.settings.image | img_url : "master" }}" alt="100% RECYCLED features" class="features__img features__img_one">
             <div class="features__description features__description_one">
@@ -16,7 +16,7 @@
       </div>
         {%  else %}
 
-      <div class="features__content features__content_yellow">
+      <div class="features__content features__content_yellow _container">
          <div class="features__container features__container_two">
             <div class="features__description features__description_two">
                <h2 class="features__header">{{ section.settings.heading }}</h2>
