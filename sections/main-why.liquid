@@ -12,28 +12,15 @@
       <div class="why-us__items">
          <div class="why-us__container">
             <div class="why-us__content">
+            {% for block in section.blocks %}
                <div class="why-us__item item">
-                  <img src="./redaily_files/1(1).png" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_one">
-                  <h3 class="item__header item__header_one">ENVIRONMENTALLY FRIENDLY</h3>
+                  <img src="{{ block.settings.image }}" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_one">
+                  <h3 class="item__header item__header_one">{{ block.settings.title }}</h3>
                   <img src="./redaily_files/border.png" alt="" class="item__border">
-                  <p class="item__text">Our approach to packaging helps to save up to 96% of potential plastic
-                     consumption per year, while pleasantly surprise you with its eco-friendly composition.</p>
+                  <p class="item__text">{{ block.settings.text }}</p>
                </div>
-               <div class="why-us__item item">
-                  <img src="./redaily_files/2(1).png" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_two">
-                  <h3 class="item__header item__header_two">FUNCTIONALITY</h3>
-                  <img src="./redaily_files/border.png" alt="" class="item__border">
-                  <p class="item__text">The functionality of the products is no different from other products on the
-                     supermarket shelf. Preserving southing and moisturizing functions of hand wash, thickens hair
-                     effects of shampoo, and effectiveness of household products.</p>
-               </div>
-               <div class="why-us__item item">
-                  <img src="./redaily_files/3(1).png" alt="ENVIRONMENTALLY FRIENDLY" class="item__img item__img_three">
-                  <h3 class="item__header item__header_three">AVAILABILITY</h3>
-                  <img src="./redaily_files/border.png" alt="" class="item__border">
-                  <p class="item__text">We are working hard to keep our prices as low as possible for you, be on the
-                     look out for our affordable prices at the stores near you.</p>
-               </div>
+            {% endfor %}
+              
             </div>
          </div>
       </div>
@@ -66,6 +53,27 @@
     }
   
   ],
+  "blocks" : [
+    {
+        "type" : "text",
+        "name" : "Text",
+        "settings" : [{
+        "type" : "image_picker",
+        "id" : "image",
+        "label" : "Image"
+        },  
+        {
+        "type" : "text",
+            "id" : "title",
+            "label" : "Title"
+        },
+        {
+            "type" : "text",
+            "id" : "text",
+            "label" : "Text"
+        }]
+    }
+    ],
   "presets": [
     {
       "name": "WHY"
