@@ -27,6 +27,34 @@
     },
     "337798d7-2388-444d-aa14-3fa8580b0ee1": {
       "type": "main-why",
+      "blocks": {
+        "70ad7840-02ff-4b95-856a-8e8cde41129b": {
+          "type": "text",
+          "settings": {
+            "title": "ENVIRONMENTALLY FRIENDLY",
+            "text": "Our approach to packaging helps to save up to 96% of potential plastic consumption per year, while pleasantly surprise you with its eco-friendly composition."
+          }
+        },
+        "4dcf0fe8-54d4-4d63-a22b-fbb44ec50ca9": {
+          "type": "text",
+          "settings": {
+            "title": "FUNCTIONALITY",
+            "text": "The functionality of the products is no different from other products on the supermarket shelf. Preserving southing and moisturizing functions of hand wash, thickens hair effects of shampoo, and effectiveness of household products."
+          }
+        },
+        "049968c5-1359-43bb-9943-4079d0d97ed1": {
+          "type": "text",
+          "settings": {
+            "title": "AVAILABILITY",
+            "text": "We are working hard to keep our prices as low as possible for you, be on the look out for our affordable prices at the stores near you."
+          }
+        }
+      },
+      "block_order": [
+        "70ad7840-02ff-4b95-856a-8e8cde41129b",
+        "4dcf0fe8-54d4-4d63-a22b-fbb44ec50ca9",
+        "049968c5-1359-43bb-9943-4079d0d97ed1"
+      ],
       "settings": {
         "heading": "CONTACTS",
         "description": "Custom Section Description",
