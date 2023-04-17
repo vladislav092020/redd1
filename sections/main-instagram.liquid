@@ -8,15 +8,27 @@
          <div class="instagram__description">
             <h2 class="instagram__header">Find us on <b>instagram</b></h2>
             <div class="instagram__socials-block">
-               <a href="" class="instagram__link">
-                  <img src="./redaily_files/twitter.svg" alt="twitter" class="instagram__img">
-               </a>
-               <a href="" class="instagram__link">
-                  <img src="./redaily_files/facebook.svg" alt="facebook" class="instagram__img">
-               </a>
-               <a href="" class="instagram__link">
-                  <img src="./redaily_files/instagram.svg" alt="instagram" class="instagram__img">
-               </a>
+
+              {%- if settings.social_twitter_link != blank -%}
+            <a href="{{ settings.social_twitter_link }}" class="instagram__link">
+              {% render "icon-twitter" %}
+              
+            </a>
+             {%- endif -%}
+             {%- if settings.social_facebook_link != blank -%}
+            <a href="{{ settings.social_facebook_link }}" class="instagram__link">
+              {% render "icon-facebook" %}
+               
+            </a>
+               {%- endif -%}
+               {%- if settings.social_instagram_link != blank -%}
+            <a href="{{ settings.social_instagram_link }}" class="instagram__link">
+              {% render "icon-instagram" %}
+               
+            </a>
+              {%- endif -%}
+
+              
             </div>
          </div>
 
