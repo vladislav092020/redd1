@@ -38,7 +38,6 @@
               {%  for link in section.settings.menu.links %}
                <li class="nav__item"><a href="{{ link.url}}" class="nav__link">{{ link.title }}</a></li>
                {%  endfor %}
-              
             </ul>
             <div class="nav__language-block">
                <a href="/" class="nav__language">English</a>
@@ -47,9 +46,9 @@
 
          <!-- Basket -->
          <div class="nav__basket-block">
-            <img src="./redaily_files/basket.svg" alt="basket" class="nav__basket">
+            {% render "icon-cart" %}
             <div class="nav__basket-counter">
-               <span class="nav__counter">2</span>
+               <span class="nav__counter">{{ cart.item_count }}</span>
             </div>
          </div>
       </div>
