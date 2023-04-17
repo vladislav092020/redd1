@@ -91,10 +91,19 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "432b3a3f-15cc-4e84-b1db-9aa8db53b1c4": {
+      "type": "subscribe",
+      "settings": {
+        "heading": "SUBSCRIBE",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "432b3a3f-15cc-4e84-b1db-9aa8db53b1c4"
   ]
 }
