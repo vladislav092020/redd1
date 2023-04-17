@@ -42,6 +42,7 @@
         "70ad7840-02ff-4b95-856a-8e8cde41129b": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon_1.svg",
             "title": "ENVIRONMENTALLY FRIENDLY",
             "text": "Our approach to packaging helps to save up to 96% of potential plastic consumption per year, while pleasantly surprise you with its eco-friendly composition."
           }
@@ -49,6 +50,7 @@
         "4dcf0fe8-54d4-4d63-a22b-fbb44ec50ca9": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon_2.svg",
             "title": "FUNCTIONALITY",
             "text": "The functionality of the products is no different from other products on the supermarket shelf. Preserving southing and moisturizing functions of hand wash, thickens hair effects of shampoo, and effectiveness of household products."
           }
@@ -56,6 +58,7 @@
         "049968c5-1359-43bb-9943-4079d0d97ed1": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_37_1.svg",
             "title": "AVAILABILITY",
             "text": "We are working hard to keep our prices as low as possible for you, be on the look out for our affordable prices at the stores near you."
           }
