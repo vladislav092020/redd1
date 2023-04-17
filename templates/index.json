@@ -13,7 +13,9 @@
       "type": "main-products",
       "settings": {
         "product_list": [
-          "dweberry"
+          "dweberry",
+          "copy-of-copy-of-dweberry",
+          "copy-of-dweberry"
         ],
         "heading": "our <b>products<\/b>",
         "description": "Choose a product that will make your day brighter. Are you looking for                Personal or Home care?",
