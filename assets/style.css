@@ -365,7 +365,7 @@ b {
 
 .main {
   height: 928px;
-  max-width: 1920px;
+/*   max-width: 1920px; */
   left: 50%;
   transform: translateX(-50%);
 }
