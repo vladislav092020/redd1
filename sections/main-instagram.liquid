@@ -31,21 +31,12 @@
          </div>
 
          <!-- Photos slider-->
-         <div class="swiper instagram__slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-            <div class="swiper-wrapper" id="swiper-wrapper-76e7bccbece3e671" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
-
-               <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3" style="width: 342.667px; margin-right: 100px;">
-                  <img src="./redaily_files/photo.jpg" alt="photo" class="instagram__photo">
+         <div class="swiper instagram__slider ">
+            <div class="swiper-wrapper">
+              {%  for block in section.blocks %}
+                  <img src="{{ block.settings.image |img_url : "master" }}" alt="photo" class="instagram__photo">
                </div>
-
-               <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3" style="width: 342.667px; margin-right: 100px;">
-                  <img src="./redaily_files/photo.jpg" alt="photo" class="instagram__photo">
-               </div>
-
-               <div class="swiper-slide" role="group" aria-label="3 / 3" style="width: 342.667px; margin-right: 100px;">
-                  <img src="./redaily_files/photo.jpg" alt="photo" class="instagram__photo">
-               </div>
-
+              {%  endfor %}
             </div>
          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 
