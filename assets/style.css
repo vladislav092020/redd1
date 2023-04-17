@@ -1706,6 +1706,11 @@ b {
     max-height: 23px;
   }
 }
+.instagram__link{
+  width:30px;
+  height:30px;
+  display:block;
+}
 .instagram__link:not(:last-child) {
   margin-right: 25px;
 }
