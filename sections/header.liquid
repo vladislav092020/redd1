@@ -35,12 +35,10 @@
          <!-- Navigation -->
          <div class="nav__burger">
             <ul class="nav__list">
-               <li class="nav__item"><a href="/" class="nav__link">Our products</a></li>
-               <li class="nav__item"><a href="/" class="nav__link">Our mission</a></li>
-               <li class="nav__item"><a href="/" class="nav__link">How it works</a></li>
-               <li class="nav__item"><a href="/" class="nav__link">About Us</a></li>
-               <li class="nav__item"><a href="/" class="nav__link">FAQ</a></li>
-               <li class="nav__item"><a href="/" class="nav__link">Contacts</a></li>
+              {%  for link in section.settings.linklinst.links %}
+               <li class="nav__item"><a href="{{ link.url}}" class="nav__link">{{ link.title }}</a></li>
+               {%  endfor %}
+              
             </ul>
             <div class="nav__language-block">
                <a href="/" class="nav__language">English</a>
