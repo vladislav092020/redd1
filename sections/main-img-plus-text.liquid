@@ -1,6 +1,6 @@
 <!-- 100% RECYCLED features  & BIODEGRADABLE features  -->
    <section class="features _wrapper">
-
+      {%  if section.settings.img_right == false %}
       <div class="features__content">
          <div class="features__container features__container_one">
             <img src="{{ section.settings.image | img_url : "master" }}" alt="100% RECYCLED features" class="features__img features__img_one">
@@ -14,18 +14,19 @@
             <path id="wave" class="wave" d="M 0 63.548 C 505.871 43.758 505.871 43.758 1011.745 53.655 C 1517.618 63.548 1517.618 63.548 2023.492 53.655 L 2023.492 8559.833 L 0 8559.833 Z" fill="#FBF8E7"></path>
          </svg>
       </div>
+        {%  else %}
 
       <div class="features__content features__content_yellow">
          <div class="features__container features__container_two">
             <div class="features__description features__description_two">
-               <h2 class="features__header"><b>BIODEGRADABLE</b> features</h2>
-               <p class="features__text">Each subsequent use of ReDaily products will leave no trace on the environment.
+               <h2 class="features__header">{{ section.settings.heading }}</h2>
+               <p class="features__text">{{  section.settings.deascription }}
                </p>
             </div>
-            <img src="./redaily_files/features-2.png" alt="BIODEGRADABLE features" class="features__img features__img_two">
+            <img src="{{ section.settings.image |img_url : "master" }}" alt="BIODEGRADABLE features" class="features__img features__img_two">
          </div>
       </div>
-
+      {%  endif %}
    </section>
 
 {% schema %}
