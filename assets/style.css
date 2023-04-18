@@ -872,21 +872,17 @@ b {
 
 .works {
   background-color: #4C5930;
-  padding: 140px 0 97px 0;
+  padding: 140px 0 130px 0;
 }
 @media (max-width: 1735px) {
   .works {
     padding: 70px 0 50px 0;
   }
 }
-@media (max-width: 1300px) {
-  .works {
-    padding: 50px 0 50px 0;
-  }
-}
-@media (max-width: 1300px) {
+@media (max-width: 1325px) and (min-width: 650px) {
   .works {
     padding: 39px 0 48px 0;
+    height: 300px;
   }
 }
 .works__header {
@@ -897,11 +893,6 @@ b {
   text-transform: uppercase;
   color: white;
   margin-bottom: 55.5px;
-}
-@media (max-width: 1300px) {
-  .works__header {
-    font-size: 40px;
-  }
 }
 @media (max-width: 1105px) {
   .works__header {
@@ -920,31 +911,147 @@ b {
     margin-bottom: 27px;
   }
 }
+@media (max-width: 1700px) {
+  .works__header {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1325px) {
+  .works__header {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 650px) {
+  .works__header {
+    font-size: 20px;
+  }
+}
 .works__scheme {
-  max-width: 1566px;
-  max-height: 425px;
+  width: 1560px;
+  height: 282px;
+  padding-top: 100px;
+  position: relative;
 }
 @media (max-width: 600px) {
   .works__scheme {
     display: none;
   }
 }
+@media (max-width: 1700px) {
+  .works__scheme {
+    scale: 0.8;
+    left: calc(50% - 157px);
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 1325px) {
+  .works__scheme {
+    scale: 0.6;
+    left: calc(50% - 312px);
+    top: -60px;
+  }
+}
+@media (max-width: 965px) {
+  .works__scheme {
+    scale: 0.4;
+    left: calc(50% - 468px);
+  }
+}
+@media (max-width: 650px) {
+  .works__scheme {
+    display: none;
+  }
+}
+.works__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 165%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 203px;
+}
+.works__img-block {
+  position: absolute;
+}
+.works__img-block_one {
+  left: -14px;
+}
+.works__img-block_two {
+  left: 480px;
+  top: -13px;
+}
+.works__img-block_two p {
+  margin-left: -50px;
+  margin-top: -16px;
+}
+.works__img-block_three {
+  right: 445px;
+  bottom: -10px;
+}
+.works__img-block_three p {
+  max-width: 157px;
+  margin-left: 38px;
+}
+.works__img-block_four {
+  right: 0px;
+  top: 19px;
+}
+.works__img-block_four p {
+  max-width: 172px;
+  margin-left: 53px;
+  margin-top: -15px;
+}
 .works__img {
-  z-index: 5 !important;
-  max-width: 100%;
+  margin-bottom: 30px;
+}
+.works__img_one {
+  width: 153px;
+  height: 203px;
+}
+.works__img_two {
+  width: 200px;
+  height: 239px;
+}
+.works__img_three {
+  width: 254px;
+  height: 237px;
+  margin-bottom: 0;
+}
+.works__img_four {
+  width: 265px;
+  height: 206px;
+}
+.works__arr {
+  position: absolute;
+}
+.works__arr_one {
+  left: 200px;
+  top: 150px;
+}
+.works__arr_two {
+  left: 645px;
+  top: 145px;
+}
+.works__arr_three {
+  right: 265px;
+  bottom: 103px;
 }
 
 .works__scheme_mobile {
   display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .works__scheme_mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 55px;
   }
 }
-.works__scheme_mobile .works__img-block {
+.works__scheme_mobile .works__img-block_mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -955,20 +1062,34 @@ b {
 .works__scheme_mobile .works__img_mobile {
   margin-bottom: 10px;
 }
-.works__scheme_mobile ._one {
+.works__scheme_mobile .works__img_mobile_one {
   margin-left: -33px;
+  width: 105px;
+  height: 140px;
 }
-.works__scheme_mobile ._two {
+.works__scheme_mobile .works__img_mobile_two {
   margin-left: 85px;
+  width: 138px;
+  height: 165px;
 }
-.works__scheme_mobile .works__text {
+.works__scheme_mobile .works__img_mobile_three {
+  width: 164px;
+  height: 142px;
+}
+.works__scheme_mobile .works__img_mobile_four {
+  width: 171px;
+  height: 143px;
+}
+.works__scheme_mobile .works__text_mobile {
   font-weight: 700;
   font-size: 12px;
   line-height: 165%;
   text-align: center;
   text-transform: uppercase;
   color: white;
+  margin-bottom: 38px;
 }
+
 
 .features__container_one {
   padding-left: 93px;
