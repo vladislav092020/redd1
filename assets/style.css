@@ -1831,7 +1831,9 @@ b {
   width:30px;
   height:30px;
   display:block;
+  color:#4C5930;
 }
+
 .instagram__link:not(:last-child) {
   margin-right: 25px;
 }
