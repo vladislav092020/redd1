@@ -2391,7 +2391,7 @@ b {
   background-color: #FBF8E7;
 }
 .footer__container {
-  padding: 114px 193px 111px 189px;
+  padding: 114px 0px 111px 0px;
   display: flex;
   flex-direction: column;
 }
