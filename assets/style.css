@@ -2322,12 +2322,14 @@ b {
   text-transform: uppercase;
   color: #FFFFFF;
   mix-blend-mode: normal;
-  padding: 12px 120px 11px 55px;
+  padding: 12px 40px 12px 40px;
   background-color: #E77622;
   margin-left: auto;
   border: 0;
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 690px) {
   .subscribe__button {
