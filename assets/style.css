@@ -2330,7 +2330,7 @@ b {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  align-items:centerl
+  align-items:center;
 }
 @media (max-width: 690px) {
   .subscribe__button {
