@@ -1970,7 +1970,7 @@ b {
 }
 .contacts__container {
   display: flex;
-  padding: 126px 201px;
+  padding: 126px 0px
 }
 @media (max-width: 1820px) {
   .contacts__container {
