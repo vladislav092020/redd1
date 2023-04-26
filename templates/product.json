@@ -21,15 +21,16 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
           }
         },
         "buy_buttons": {
@@ -55,8 +56,8 @@
         "vendor",
         "title",
         "price",
-        "variant_picker",
         "quantity_selector",
+        "variant_picker",
         "buy_buttons",
         "description",
         "share"
