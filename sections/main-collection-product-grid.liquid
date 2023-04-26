@@ -1,7 +1,7 @@
 
 
  <div class="products__items">
-         {% for product in section.settings.product_list %}
+         {%- for product in collection.products -%}
             <a href="{{ product.url }}" class="product__link">
                <div class="products__item">
                   <img src="{{ product.featured_image | img_url : "master" }}" alt="product" class="products__img">
