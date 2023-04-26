@@ -8,8 +8,8 @@
                   <h3 class="products__name">{{ product.title }}</h3>
                   <p class="products__text">BODY WASH</p>
                   <div class="products__price-block">
-                     <span class="products__price products__price_old">€10</span>
-                     <span class="products__price products__price_new">€5</span>
+                     <span class="products__price products__price_old">€{{ price | money }}</span>
+                     <span class="products__price products__price_new">€{{ compare_at_price | money }}</span>
                   </div>
                </div>
             </a>
