@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/our_products_photo_4.png",
         "show_collection_description": false,
         "show_collection_image": true,
         "color_scheme": "background-1"
