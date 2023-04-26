@@ -67,7 +67,12 @@
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+          <div class="breadcumb">
+            <a href="">
+            </a>
+            >
+            {{ product.title }}
+          </div>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
