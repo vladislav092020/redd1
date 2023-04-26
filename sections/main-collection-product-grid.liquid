@@ -1,5 +1,6 @@
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
    <div class="_container">
+     Personal Care
      {%- paginate collection.products by section.settings.products_per_page -%}
       <div class="products__items">
          {%- for product in collection.products -%}
