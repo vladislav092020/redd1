@@ -46,9 +46,23 @@
 </div> -->
 
 <div class="collection-hero">
-   <div class="collection-hero__image-container media gradient">
-  {{ section.settings.image  | img_url : "master" | img_tag}}
-   </div>
+  <div class="collection-hero__inner _container">
+    
+    <div class="collection-hero__text-wrapper">
+      <h1 class="collection-hero__title">
+        <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+        {{- collection.title | escape -}}
+      </h1>
+
+      {%- if section.settings.show_collection_description -%}
+        <div class="collection-hero__description rte">{{ collection.description }}</div>
+      {%- endif -%}
+    </div>
+    
+     <div class="collection-hero__image-container media gradient">
+    {{ section.settings.image  | img_url : "master" | img_tag}}
+     </div>
+  </div>
 </div>
 
 {% schema %}
