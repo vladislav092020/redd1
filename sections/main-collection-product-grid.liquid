@@ -1,5 +1,6 @@
 
    <div class="_container">
+     {%- paginate collection.products by section.settings.products_per_page -%}
       <div class="products__items">
          {%- for product in collection.products -%}
             <a href="{{ product.url }}" class="product__link">
@@ -15,6 +16,7 @@
             </a>
         {% endfor %}
    </div>
+     {%- endpaginate -%}
  </div>
  
 {% schema %}
