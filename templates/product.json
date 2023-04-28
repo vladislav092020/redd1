@@ -51,6 +51,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "5850c990-cc2d-4523-a9b8-e8dda442d0aa": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -61,7 +66,8 @@
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
-        "share"
+        "share",
+        "5850c990-cc2d-4523-a9b8-e8dda442d0aa"
       ],
       "settings": {
         "enable_sticky_info": true,
