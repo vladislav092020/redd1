@@ -95,6 +95,14 @@
         "padding_bottom": 28
       }
     },
+    "00a9d888-0858-4139-944d-09245bd84a4c": {
+      "type": "main-how-it-works",
+      "settings": {
+        "heading": "CONTACTS",
+        "description": "Custom Section Description",
+        "text": "SUBMIT"
+      }
+    },
     "432b3a3f-15cc-4e84-b1db-9aa8db53b1c4": {
       "type": "subscribe",
       "settings": {
@@ -107,6 +115,7 @@
   "order": [
     "main",
     "related-products",
+    "00a9d888-0858-4139-944d-09245bd84a4c",
     "432b3a3f-15cc-4e84-b1db-9aa8db53b1c4"
   ]
 }
