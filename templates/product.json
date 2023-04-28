@@ -26,12 +26,6 @@
           "settings": {
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -52,8 +46,22 @@
             "share_label": "Share"
           }
         },
+        "67b66810-36c9-4100-b2b6-e4df94345590": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "5850c990-cc2d-4523-a9b8-e8dda442d0aa": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {
           }
         }
@@ -63,11 +71,12 @@
         "title",
         "price",
         "description",
-        "quantity_selector",
         "variant_picker",
         "buy_buttons",
         "share",
-        "5850c990-cc2d-4523-a9b8-e8dda442d0aa"
+        "67b66810-36c9-4100-b2b6-e4df94345590",
+        "5850c990-cc2d-4523-a9b8-e8dda442d0aa",
+        "quantity_selector"
       ],
       "settings": {
         "enable_sticky_info": true,
