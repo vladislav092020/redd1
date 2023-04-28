@@ -93,9 +93,9 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
-              </div>
-            {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+
+
+             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
                   use_variant: true,
@@ -120,6 +120,13 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+
+
+            
+            
+              </div>
+            {%- when 'price' -%}
+             
             {%- when 'inventory' -%}
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
