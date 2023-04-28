@@ -310,7 +310,8 @@ fieldset.product-form__input .form__label {
 
 /* Product info */
 .breadcumb{
-
+  color: #E77622;
+  
 }
 .product__info-container > * + * {
   margin: 1.5rem 0;
