@@ -313,6 +313,9 @@ fieldset.product-form__input .form__label {
   color: #E77622;
   text-transform:uppercase;
 }
+.bradcrumb a{
+  color: #E77622;
+}
 .product__info-container > * + * {
   margin: 1.5rem 0;
 }
