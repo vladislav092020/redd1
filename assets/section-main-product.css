@@ -339,6 +339,7 @@ a.product__text {
 }
 
 .product__title {
+  display:flex;
   word-break: break-word;
   margin-bottom: 1.5rem;
 }
