@@ -18,10 +18,10 @@
   text-align: right;
 }
 
-.price .price-item {
+/* .price .price-item {
   display: inline-block;
   margin: 0 1rem 0 0;
-}
+} */
 
 .price__regular .price-item--regular {
   margin-right: 0;
