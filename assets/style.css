@@ -2080,7 +2080,7 @@ b {
   }
 }
 
-.form {
+.form_contact {
   background-color: #FBF9EA;
   display: flex;
   flex-direction: column;
@@ -2090,19 +2090,19 @@ b {
   padding: 25px 55px 56px 55px;
 }
 @media (max-width: 1820px) {
-  .form {
+  .form_contact {
     width: 405px;
   }
 }
 @media (max-width: 555px) {
-  .form {
+  .form_contact {
     width: 268px;
     height: 341px;
     padding: 15px 27px 27px 27px;
   }
 }
 @media (max-width: 555px) {
-  .form {
+  .form_contact {
     width: 200px;
     height: 341px;
     padding: 15px 27px 27px 27px;
