@@ -57,6 +57,7 @@
         },
         "5850c990-cc2d-4523-a9b8-e8dda442d0aa": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
           }
         },
