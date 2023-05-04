@@ -114,38 +114,7 @@
               </div>
             </div>
 
-            <style>
-            .asside{
-              display:flex;
-              flex-direction:column;
-              position:fixed;
-              top:0;
-              right:0;
-              width:20%;
-              height:100%;
-              background:#fff;
-            }
-            .asside__header{
-              height:70px;
-              padding:44px 20px 31px 20px;
-              font-size: 50px;
-              font-weight:400;
-            }
-            </style>
-            <div class="asside">
-            <div class="asside__header">
-            Pick a scent
-            </div>
-            <div class="asside-product">
-              <div class="asside-product__image">
-              </div>
-              <div class="asside-product__title">
-              BODY WASH
-              </div>
-              <div class="asside-product__button">
-              ADD TO BUNDLE
-              </div>
-            </div>
+            
               
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -617,6 +586,43 @@
   </script>
 </section>
 
+
+
+<style>
+            .asside{
+              display:flex;
+              flex-direction:column;
+              position:fixed;
+              top:0;
+              right:0;
+              width:20%;
+              height:100%;
+              background:#fff;
+            }
+            .asside__header{
+              height:70px;
+              padding:44px 20px 31px 20px;
+              font-size: 50px;
+              font-weight:400;
+            }
+            </style>
+            <div class="asside">
+            <div class="asside__header">
+            Pick a scent
+            </div>
+            <div class="asside-product">
+              <div class="asside-product__image">
+              </div>
+              <div class="asside-product__title">
+              BODY WASH
+              </div>
+              <div class="asside-product__button">
+              ADD TO BUNDLE
+              </div>
+            </div>
+          
+
+          
 {% schema %}
 {
   "name": "t:sections.main-product.name",
