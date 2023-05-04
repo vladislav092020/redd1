@@ -86,9 +86,11 @@
     {% render 'fast_bundle_service' %}
 {% endif %}
 
-</head>
+  {% if template == 'cart' %}{% include "revy-bundle-script" %}{% endif %}
 
-  <body class="gradient">
+
+</head>
+<body class="gradient">
   
 
     {%- if settings.cart_type == 'drawer' -%}
@@ -144,5 +146,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    {% include 'revy-bundle-script' %}
   </body>
 </html>
