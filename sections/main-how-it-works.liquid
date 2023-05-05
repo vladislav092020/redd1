@@ -5,7 +5,9 @@
          <h2 class="works__header">How it <b>works</b></h2>
          <div class="works__scheme">
             <div class="works__img-block works__img-block_one">
-               <img src="img/works/1.png" alt="" class="works__img works__img_one">
+              {%  if section.settings.desktop_image_1 != blank %}
+               <img src="{{ section.settings.desktop_image_1 | img_url : "master" }}" alt="" class="works__img works__img_one">
+              {%  endif %}
                <p class="works__text">Fill the bottle with warm water</p>
             </div>
             <img src="img/works/arr-one.svg" alt="" class="works__arr works__arr_one">
